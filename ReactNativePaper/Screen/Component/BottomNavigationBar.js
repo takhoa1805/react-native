@@ -1,8 +1,8 @@
 import { createMaterialBottomTabNavigator } from 'react-native-paper/react-navigation';
-import HomeScreen from '../screens/HomeScreen';
-import SettingsScreen from '../screens/SettingsScreen';
-import PetsScreen from '../screens/PetsScreen';
-import FeedStationsScreen from '../screens/FeedStationsScreen';
+import HomeScreen from '../LandingScreen/HomeScreen';
+import SettingsScreen from '../LandingScreen/SettingsScreen';
+import PetsScreen from '../LandingScreen/PetsScreen';
+import FeedStationsScreen from '../LandingScreen/FeedStationsScreen';
 
 const Tab = createMaterialBottomTabNavigator();
 
